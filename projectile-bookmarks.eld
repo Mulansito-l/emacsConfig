@@ -1,1 +1,1 @@
-("~/.config/")
+("~/practica4/" "~/.config/emacs/" "~/.config/")

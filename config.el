@@ -357,19 +357,22 @@
     org-edit-src-content-indentation 0)
 
 (use-package toc-org
-:straight t
+  :straight t
   :commands toc-org-enable
   :init (add-hook 'org-mode-hook 'toc-org-enable))
 
 (setq org-blank-before-new-entry (quote ((heading . nil)
                                          (plain-list-item . nil))))
 
-(use-package perspective
-:straight t
-:bind
-  ("C-x C-b" . persp-list-buffers)   ; or use a nicer switcher, see below
+(use-package centaur-tabs
+  :straight t
+  :demand
   :config
-  (persp-mode))
+  (centaur-tabs-mode t))
+
+(nvmap
+       "M-n"   '(centaur-tabs-forward :which-key "Goes one tab to the right")
+       "M-p"   '(centaur-tabs-backward :which-key "Goes one tab to the left"))
 
 (use-package projectile
 :straight t

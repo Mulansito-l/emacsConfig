@@ -1,2 +1,10 @@
 neofetch
 ls
+git init
+git add -A
+git commit -m "03/04/24"
+git branch -M main
+git remote add origin https://github.com/Mulansito-l/emacsConfig.git
+git push -u origin main
+ls
+:q

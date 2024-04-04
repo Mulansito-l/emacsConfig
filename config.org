@@ -464,7 +464,7 @@ AUTHOR: Diego Castañeda Covarrubias
 ** Automatic TOC
 #+begin_src emacs-lisp
 (use-package toc-org
-:straight t
+  :straight t
   :commands toc-org-enable
   :init (add-hook 'org-mode-hook 'toc-org-enable))
 #+end_src
@@ -475,14 +475,17 @@ AUTHOR: Diego Castañeda Covarrubias
                                          (plain-list-item . nil))))
 #+end_src
 
-* Perspective
+* Centaur Tabs
 #+begin_src emacs-lisp
-(use-package perspective
-:straight t
-:bind
-  ("C-x C-b" . persp-list-buffers)   ; or use a nicer switcher, see below
+(use-package centaur-tabs
+  :straight t
+  :demand
   :config
-  (persp-mode))
+  (centaur-tabs-mode t))
+
+(nvmap
+       "M-n"   '(centaur-tabs-forward :which-key "Goes one tab to the right")
+       "M-p"   '(centaur-tabs-backward :which-key "Goes one tab to the left"))
 #+end_src
 
 * Projectile

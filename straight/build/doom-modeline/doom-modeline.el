@@ -1,0 +1,1 @@
+/home/milan/.config/emacs/straight/repos/doom-modeline/doom-modeline.el

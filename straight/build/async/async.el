@@ -1,0 +1,1 @@
+/home/milan/.config/emacs/straight/repos/emacs-async/async.el

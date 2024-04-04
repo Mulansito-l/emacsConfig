@@ -1,0 +1,4 @@
+/home/milan/.config/emacs/straight/build/vterm/build/CMakeFiles/vterm-module.dir
+/home/milan/.config/emacs/straight/build/vterm/build/CMakeFiles/run.dir
+/home/milan/.config/emacs/straight/build/vterm/build/CMakeFiles/edit_cache.dir
+/home/milan/.config/emacs/straight/build/vterm/build/CMakeFiles/rebuild_cache.dir

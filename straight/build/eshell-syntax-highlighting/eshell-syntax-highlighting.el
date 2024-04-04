@@ -1,0 +1,1 @@
+/home/milan/.config/emacs/straight/repos/eshell-syntax-highlighting/eshell-syntax-highlighting.el

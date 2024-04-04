@@ -1,0 +1,19 @@
+
+;; ----- smex-history -----
+(
+ all-the-icons-install-fonts
+ nerd-icons-install-fonts
+ make-directory
+ check-parens
+ cd
+ 5x5
+ arp
+)
+
+;; ----- smex-data -----
+(
+ (check-parens . 1)
+ (make-directory . 1)
+ (nerd-icons-install-fonts . 1)
+ (all-the-icons-install-fonts . 1)
+)

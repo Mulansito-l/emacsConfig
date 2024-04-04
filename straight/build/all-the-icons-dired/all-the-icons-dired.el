@@ -1,0 +1,1 @@
+/home/milan/.config/emacs/straight/repos/all-the-icons-dired/all-the-icons-dired.el

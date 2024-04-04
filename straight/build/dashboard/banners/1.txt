@@ -1,0 +1,1 @@
+/home/milan/.config/emacs/straight/repos/emacs-dashboard/banners/1.txt
